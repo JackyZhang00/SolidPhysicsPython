@@ -20,7 +20,7 @@ dataAl,dataAlf=getMatrixDatas(files[0],files[1])
 
 h,k,l,f,F=getDatas(dataAl,dataAlf)
 
-Ft=getF(f,h,k,l,(0,0,0),(0,0.5,0.5),(0.5,0,0.5),(0.5,0.5,0))
+Ft=getF_mod(f,h,k,l,(0,0,0),(0,0.5,0.5),(0.5,0,0.5),(0.5,0.5,0))
 
 err=getError(F,Ft)
 #print(err)
